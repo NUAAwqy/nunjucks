@@ -1081,7 +1081,7 @@
       equal('{{ 12345 | truncate(2) }}', '12...');
       equal('{{ 123 | center(10) }}', '   123    ');
       equal('{{ 1.5 | upper }}', '1.5');
-      equal('{{ true | capitalize }}', 'true');
+      equal('{{ true | capitalize }}', 'True');
       equal('{{ false | upper }}', '');
       finish(done);
     });
